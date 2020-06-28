@@ -1,0 +1,13 @@
+{
+  "name": "gulp-markdown-it-additional-class",
+  "version": "1.0.0",
+  "description": "markdown-it customClass add javascript",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/otoshimtoshi/gulp-markdown-it-additionalClass"
+  },
+  "private": true,
+  "engines": {
+    "node": "14.3.0"
+  }
+}
