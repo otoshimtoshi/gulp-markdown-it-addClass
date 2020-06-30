@@ -5,9 +5,9 @@
 ``` bash
 git clone git@github.com:otoshimtoshi/gulp-markdown-it-addClass.git
 ```
-```
-May be usable　package.json
+
 ``` json
+// May be usable　package.json
 "gulp-markdown-it-addClass": "git://github.com/otoshimtoshi/gulp-markdown-it-addClass.git"
 ```
 
