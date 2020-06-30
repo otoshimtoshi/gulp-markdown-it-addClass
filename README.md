@@ -1,32 +1,29 @@
-# gulp-markdown-it-additionalClass
-markdown-it customClass add javascript
+# gulp-markdown-it-addClass
 
-import this customRules
 
-``` js
-const mdAdd = require('gulp-markdown-it-additionalClass');
+## Install
+``` bash
+git clone git@github.com:otoshimtoshi/gulp-markdown-it-addClass.git
+```
+```
+May be usable　package.json
+``` json
+"gulp-markdown-it-addClass": "git://github.com/otoshimtoshi/gulp-markdown-it-addClass.git"
 ```
 
+## Usage examples
+Then, add it to your gulpfile.js:
 ``` js
+var gulp = require('gulp');
+var md = require('gulp-markdown-it');
+const mdAddClass = require('gulp-markdown-it-addClass');
+
 gulp.task('default', () => {
-  return gulp.src("")
-    .pipe(markdown(mdAdd))
+  return gulp.src('./src/*.ext')
+    .pipe(md(mdAddClass));
 });
 ```
-or
-
-``` js
-gulp.task('default', () => {
-  return gulp.src("")
-    .pipe(markdown(config))
-});
-
-const config = {
-  plugins: [ mdAdd, plugins...... ]
-}
-```
-
-++example++
+## Output examples
 ``` html
 <a class="markdown-body"></a>
 <p class="markdown-body"></p>
